@@ -25,7 +25,7 @@ module.exports = {
   entry: './src/index.js',
   // Don't include theme into library build
   externals: {
-    'vue': 'Vue'
+    'vue': 'vue'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),// where to store build files
